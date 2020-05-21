@@ -1,0 +1,78 @@
+body{
+    min-width: 100%;
+    min-height: 1000px;
+    background: black;
+   
+}
+#tren{
+    background: gold;
+    min-width: 100%;
+    min-height: 150px;
+}
+#tren img{
+    width: auto;
+    height: 70px;
+}
+#tren ul{
+    margin: 0px;
+    padding: 0px;
+}
+#tren ul li{
+    display: inline;
+    float: left;
+}
+#tren ul li a{
+    display: block;
+    color: white;
+    border-right: 1px solid aqua;
+    padding: 0px 10px 0px 10px;
+}
+#banner{
+    background: blue;
+    min-height: 50px;
+    min-width: 100%;
+}
+#banner ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#banner ul li{
+    list-style: none;
+    float: left;
+}   
+   
+#banner ul li a{
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    color: white;
+    padding: 0px 70px 0px 70px;
+    border-right: 2px solid aqua;
+}
+#noidung #trai{
+    background: brown;
+    min-height: 700px;
+    float: left;
+    min-width: 70%;
+}
+
+#noidung #trai #anhtrai{
+    width: 300px;
+    min-height: 200px;
+}
+#noidung #trai #tinmoi{
+    color: blue;
+}
+#noidung #phai{
+    background: cadetblue;
+    float: left;
+    min-height: 700px;
+    min-width: 30%;
+}
+#footer{
+    background: green;
+    min-width: 100%;
+    min-height: 150px;
+    clear: left;
+}
