@@ -1,0 +1,39 @@
+#t{
+	background-color: red;
+}
+#u{
+	background: #848484;
+}
+#o{
+	text-align: center;
+}
+#p{
+	text-align: center;
+}
+#r{
+	width: 15%;
+	height: auto;
+	float: left;
+}
+#k{
+	clear: right;
+	padding-left: 15px;
+	font-size: 150%;
+}
+#b{
+	text-align: center;
+}
+#t{
+	width: 15%;
+	height: auto;
+	float: right;
+}
+#h{
+	clear: left;
+	padding-left: 15px;
+	font-size: 150%;
+}
+#e{
+	margin: 0 auto;
+	width: 90%;
+}
