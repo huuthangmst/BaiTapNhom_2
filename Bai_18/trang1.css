@@ -1,0 +1,39 @@
+body{
+    min-width: 100%;
+    min-height: 500px;
+    background: black;
+   
+}
+#tren{
+    background: gold;
+    min-width: 100%;
+    min-height: 150px;
+}
+#trai{
+    background: red;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+#phai{
+    background: blue;
+    height: 300px;
+    width: 20%;
+    float: right;
+}
+
+#giua{
+    background: pink;
+    min-width: 60%;
+    min-height: 300px;
+    float: left;
+}
+#duoi{
+    background:green;
+    min-width: 100%;
+    min-height: 50px;
+    clear: left;
+    line-height: 50px;
+  
+
+}
