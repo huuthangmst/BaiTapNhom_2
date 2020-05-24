@@ -2,7 +2,6 @@ body{
     min-width: 100%;
     min-height: 1000px;
     background: black;
-   
 }
 #tren{
     background: gold;
@@ -25,7 +24,7 @@ body{
     display: block;
     color: white;
     border-right: 1px solid aqua;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 25px 0px 25px;
 }
 #banner{
     background: blue;
@@ -51,18 +50,27 @@ body{
     border-right: 2px solid aqua;
 }
 #noidung #trai{
-    background: brown;
+    background: orange;
     min-height: 700px;
     float: left;
     min-width: 70%;
 }
-
-#noidung #trai #anhtrai{
-    width: 300px;
+#noidung #trai #tren{
+    background: coral;
+    min-width: 100%;
+    min-height: 400px;
+}
+#noidung #trai #tren #anhtrai{
+    width: 100px;
     min-height: 200px;
 }
-#noidung #trai #tinmoi{
+#noidung #trai #tren #tinmoi{
     color: blue;
+}
+#noidung #trai #duoi{
+    background: crimson;
+    width: 100%;
+    min-height: 200px;
 }
 #noidung #phai{
     background: cadetblue;
@@ -70,9 +78,55 @@ body{
     min-height: 700px;
     min-width: 30%;
 }
+#noidung #phai #banner1{
+    background: chartreuse;
+    min-width: 10%;
+    min-height: 150px;
+}
+#noidung #phai #banner2{
+    background: orangered;
+    min-width: 10%;
+    min-height: 110px;
+}
+#noidung #phai #banner3{    
+    background: palegreen;
+    min-width: 10%;
+    min-height: 110px;
+}
 #footer{
     background: green;
     min-width: 100%;
-    min-height: 150px;
+    min-height: 110px;
     clear: left;
+}
+#footer #trai{
+    background: green;
+    min-width: 70%;
+    min-height: 150px;
+    float: left;
+}
+#footer #phai{
+    background: green;
+    min-width:  30%;
+    min-height: 150px;
+    float: left;
+
+}
+#footer #phai ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#footer #phai ul li{
+    list-style: none;
+    float: left;
+}   
+   
+#footer #phai ul li a{
+    text-decoration: none;
+    display: block;
+    line-height: 25px;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid aqua;
 }
