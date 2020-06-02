@@ -66,8 +66,9 @@ h1{
 }
 .searchbox .icon{
     position: absolute;
-    margin-left: 5%;
-    margin-top: 5.5%;
+    margin-left: 17px;
+    margin-top: 20px;
+    z-index: 1;
     color: #4f5b66;
 }
 #duoi{
