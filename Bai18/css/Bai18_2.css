@@ -28,6 +28,15 @@ body{
     border: double;
     padding: solid 1px black;
 }
+#giua img{
+    width: 230px;
+    height: 230px;
+}
+#hr{
+    width: 300px;
+    height: 2px;
+    background-color:blue;
+}
 #phai{
     height: 540px;
     width: 19.5%;
