@@ -1,6 +1,6 @@
 header{
-    background-color: antiquewhite;
     height: 15vh;
+    border: 1px solid black;
 }
 section{
     height: 75vh;
@@ -15,6 +15,7 @@ nav{
     color: black ;
     background: white;
     text-align: center;
+    border: 1px solid black;
 }
 h1{
     margin: 0;
@@ -50,6 +51,7 @@ h1{
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
+    border: 1px solid black;
 }
 .searchbox input[type="search"]{
     width: 100%;
@@ -71,33 +73,37 @@ h1{
     z-index: 1;
     color: #4f5b66;
 }
-#duoi{
-    background-color: blueviolet;
-    height: 57%;
+#menu_chinh{
+    height: 56%;
+    border: 1px solid black;
+}
+#menu_chinh a{
+    margin-left: 20px;
 }
 aside{
     width: 80%;
     height: 100%;
     float: left;
 }
-#top{
-    background-color: brown;
-    height: 10%;
-    width: 100%;
+#quick_link{
+    height: 9%;
+    width: 99.9%;
+    border: 1px solid black;
 }
-#left{
-    background-color: chartreuse;
-    height: 90%;
+#trang_chinh{
+    height: 90.3%;
     width: 70%;
     float: left;
+    border: 1px solid black;
 }
-#right{
-    background-color: coral;
-    height: 90%;
-    width: 30%;
+#menu_phu{
+    height: 90.3%;
+    width: 29.6%;
     float: left;
+    border: 1px solid black;
 }
 footer{
-    background-color: blanchedalmond;
     height: 10vh;
+    text-align: center;
+    border: 1px solid black;
 }
